@@ -1,4 +1,4 @@
-import {React, useState} from "react";
+import {React, useEffect, useState} from "react";
 // import Lottie from "react-lottie";
 // import animationData from "../animations/login/login.json";
 import { Box, Button, ListItem, Stack, TextField } from "@mui/material";
@@ -22,8 +22,8 @@ export default function Login() {
 
   const [showPassword, setShowPassword] = useState(false);
 
-  // const navigate = useNavi
-  // const navigate = useNavigate("/")
+  
+  const navigate = useNavigate();
   
   const handleUserLoginSubmit = (e) => {
     e.preventDefault();
@@ -34,7 +34,7 @@ export default function Login() {
     //       setValidRegistration(true);
     //     });
     
-        fetch(`http://localhost:8080/login?password=admin&email=abc@gmail.com`,{
+        fetch(`http://localhost:8080/login?password=${password}&email=${email}`,{
           method:'GET',
           
           
@@ -48,11 +48,16 @@ export default function Login() {
       //   return res;
       }).then((data)=>{
         console.log(data)
-        sessionStorage.setItem("email",data.userEmail)
-        sessionStorage.setItem("id",data.userId)
+        if(data.userEmail!=null){
+          sessionStorage.setItem("email",data.userEmail)
+          sessionStorage.setItem("id",data.userId)
+        }
+        
+       navigate("/",true)
       })
 
   };
+ 
 
   return (
     <Box style={{ margin: "40px 80px 20px 80px" , boxShadow: "2px 2px 10px black" , height : "530px"}}>
