@@ -3,6 +3,7 @@ import test1 from '../static/test1.jpg';
 import plus from "../static/plus.png";
 import React, { useEffect, useState } from 'react'
 
+import { AiOutlineDelete,AiFillEdit } from 'react-icons/ai';
 const BlogComponents = () => {
     const adminEmail="chetal@gmail.com";
     const [check,setCheck]=useState(true);
@@ -23,7 +24,10 @@ const BlogComponents = () => {
         </div>}
         <div className="blog-allcontent">
             <div className="blog-img-content">
-<img className="blog-img" src={test1} alt="img" />
+                <div className="blog-action">
+                    <AiFillEdit className="action"/>
+                    <AiOutlineDelete className="action"/>
+                </div>
             </div>
             <div className="blog-title-content">
                 <p>This is title</p>
@@ -31,7 +35,10 @@ const BlogComponents = () => {
         </div>
         <div className="blog-allcontent">
             <div className="blog-img-content">
-<img className="blog-img" src={test1} alt="img" />
+                <div className="blog-action">
+                    <AiFillEdit/>
+                    <AiOutlineDelete/>
+                </div>
             </div>
             <div className="blog-title-content">
                 <p>This is title</p>
@@ -39,7 +46,10 @@ const BlogComponents = () => {
         </div>
         <div className="blog-allcontent">
             <div className="blog-img-content">
-<img className="blog-img" src={test1} alt="img" />
+                <div className="blog-action">
+                    <AiFillEdit/>
+                    <AiOutlineDelete/>
+                </div>
             </div>
             <div className="blog-title-content">
                 <p>This is title</p>
@@ -47,7 +57,10 @@ const BlogComponents = () => {
         </div>
         <div className="blog-allcontent">
             <div className="blog-img-content">
-<img className="blog-img" src={test1} alt="img" />
+                <div className="blog-action">
+                    <AiFillEdit/>
+                    <AiOutlineDelete/>
+                </div>
             </div>
             <div className="blog-title-content">
                 <p>This is title</p>
@@ -55,7 +68,10 @@ const BlogComponents = () => {
         </div>
         <div className="blog-allcontent">
             <div className="blog-img-content">
-<img className="blog-img" src={test1} alt="img" />
+                <div className="blog-action">
+                    <AiFillEdit/>
+                    <AiOutlineDelete/>
+                </div>
             </div>
             <div className="blog-title-content">
                 <p>This is title</p>
@@ -63,7 +79,10 @@ const BlogComponents = () => {
         </div>
         <div className="blog-allcontent">
             <div className="blog-img-content">
-<img className="blog-img" src={test1} alt="img" />
+                <div className="blog-action">
+                    <AiFillEdit/>
+                    <AiOutlineDelete/>
+                </div>
             </div>
             <div className="blog-title-content">
                 <p>This is title</p>
@@ -71,7 +90,10 @@ const BlogComponents = () => {
         </div>
         <div className="blog-allcontent">
             <div className="blog-img-content">
-<img className="blog-img" src={test1} alt="img" />
+                <div className="blog-action">
+                    <AiFillEdit/>
+                    <AiOutlineDelete/>
+                </div>
             </div>
             <div className="blog-title-content">
                 <p>This is title</p>
@@ -79,7 +101,10 @@ const BlogComponents = () => {
         </div>
         <div className="blog-allcontent">
             <div className="blog-img-content">
-<img className="blog-img" src={test1} alt="img" />
+                <div className="blog-action">
+                    <AiFillEdit/>
+                    <AiOutlineDelete/>
+                </div>
             </div>
             <div className="blog-title-content">
                 <p>This is title</p>
@@ -87,7 +112,10 @@ const BlogComponents = () => {
         </div>
         <div className="blog-allcontent">
             <div className="blog-img-content">
-<img className="blog-img" src={test1} alt="img" />
+                <div className="blog-action">
+                    <AiFillEdit/>
+                    <AiOutlineDelete/>
+                </div>
             </div>
             <div className="blog-title-content">
                 <p>This is title</p>
@@ -95,7 +123,10 @@ const BlogComponents = () => {
         </div>
         <div className="blog-allcontent">
             <div className="blog-img-content">
-<img className="blog-img" src={test1} alt="img" />
+                <div className="blog-action">
+                    <AiFillEdit/>
+                    <AiOutlineDelete/>
+                </div>
             </div>
             <div className="blog-title-content">
                 <p>This is title</p>
@@ -103,7 +134,10 @@ const BlogComponents = () => {
         </div>
         <div className="blog-allcontent">
             <div className="blog-img-content">
-<img className="blog-img" src={test1} alt="img" />
+                <div className="blog-action">
+                    <AiFillEdit/>
+                    <AiOutlineDelete/>
+                </div>
             </div>
             <div className="blog-title-content">
                 <p>This is title</p>
@@ -111,7 +145,10 @@ const BlogComponents = () => {
         </div>
         <div className="blog-allcontent">
             <div className="blog-img-content">
-<img className="blog-img" src={test1} alt="img" />
+                <div className="blog-action">
+                    <AiFillEdit/>
+                    <AiOutlineDelete/>
+                </div>
             </div>
             <div className="blog-title-content">
                 <p>This is title</p>
@@ -119,7 +156,10 @@ const BlogComponents = () => {
         </div>
         <div className="blog-allcontent">
             <div className="blog-img-content">
-<img className="blog-img" src={test1} alt="img" />
+                <div className="blog-action">
+                    <AiFillEdit/>
+                    <AiOutlineDelete/>
+                </div>
             </div>
             <div className="blog-title-content">
                 <p>This is title</p>
@@ -127,7 +167,10 @@ const BlogComponents = () => {
         </div>
         <div className="blog-allcontent">
             <div className="blog-img-content">
-<img className="blog-img" src={test1} alt="img" />
+                <div className="blog-action">
+                    <AiFillEdit/>
+                    <AiOutlineDelete/>
+                </div>
             </div>
             <div className="blog-title-content">
                 <p>This is title</p>
@@ -135,7 +178,10 @@ const BlogComponents = () => {
         </div>
         <div className="blog-allcontent">
             <div className="blog-img-content">
-<img className="blog-img" src={test1} alt="img" />
+                <div className="blog-action">
+                    <AiFillEdit/>
+                    <AiOutlineDelete/>
+                </div>
             </div>
             <div className="blog-title-content">
                 <p>This is title</p>
@@ -143,7 +189,10 @@ const BlogComponents = () => {
         </div>
         <div className="blog-allcontent">
             <div className="blog-img-content">
-<img className="blog-img" src={test1} alt="img" />
+                <div className="blog-action">
+                    <AiFillEdit/>
+                    <AiOutlineDelete/>
+                </div>
             </div>
             <div className="blog-title-content">
                 <p>This is title</p>
@@ -151,7 +200,10 @@ const BlogComponents = () => {
         </div>
         <div className="blog-allcontent">
             <div className="blog-img-content">
-<img className="blog-img" src={test1} alt="img" />
+                <div className="blog-action">
+                    <AiFillEdit/>
+                    <AiOutlineDelete/>
+                </div>
             </div>
             <div className="blog-title-content">
                 <p>This is title</p>
@@ -159,7 +211,10 @@ const BlogComponents = () => {
         </div>
         <div className="blog-allcontent">
             <div className="blog-img-content">
-<img className="blog-img" src={test1} alt="img" />
+                <div className="blog-action">
+                    <AiFillEdit/>
+                    <AiOutlineDelete/>
+                </div>
             </div>
             <div className="blog-title-content">
                 <p>This is title</p>
